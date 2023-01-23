@@ -255,7 +255,7 @@ export default function Router() {
       // element: <MainLayout />,
       element: (
         <GuestGuard>
-          <RegisterPage />
+          <LoginPage />
         </GuestGuard>
       ),
       children: [
